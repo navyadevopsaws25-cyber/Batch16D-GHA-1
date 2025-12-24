@@ -1,0 +1,9 @@
+name: First-gha-1
+on:
+ push
+jobs:
+  b16-first-job
+   runs-on: ubuntu-latest
+  steps:
+    -name: message
+    run: echo"welcome to GHA world"
