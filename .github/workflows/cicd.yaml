@@ -1,10 +1,10 @@
 name: First-gha-1
 
 on:
-  push:
+  push
 
 jobs:
-  b16-first-job:
+  b16-first-job
     runs-on: ubuntu-latest
     steps:
       - name: message
