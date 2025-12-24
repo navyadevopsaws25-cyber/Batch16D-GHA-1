@@ -6,4 +6,4 @@ jobs:
    runs-on: ubuntu-latest
   steps:
     -name: message
-    run: echo"welcome to GHA world"
+     run: echo"welcome to GHA world"
